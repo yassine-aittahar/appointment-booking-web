@@ -1,0 +1,13 @@
+const TYPES = {
+  STORAGE: {
+    AUTH_RESPONSE: 'auth_response'
+  },
+  ERRORS: {
+    NETWORK_ERROR: 'NETWORK_ERROR',
+    TIME_OUT_ERROR: 'TIME_OUT_ERROR',
+    NOT_FOUND_ERROR: 'NOT_FOUND_ERROR',
+    UNAUTHORIZED_ERROR: 'UNAUTHORIZED_ERROR'
+  }
+}
+
+export const Keys = Object.freeze(TYPES)
